@@ -17,5 +17,5 @@ steps:
     echo See https://aka.ms/yaml
     ping code-new.pru.intranet.asia
     telnet code-new.pru.intranet.asia 8443
-    telnet code.pruconnect.net 7999
+    telnet code.pruconnect.net 8443
   displayName: 'Run a multi-line script'
