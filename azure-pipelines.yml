@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: aquasec-agent
+  name: Azure Pipelines
   vmImage: ubuntu-latest
 
 steps:
