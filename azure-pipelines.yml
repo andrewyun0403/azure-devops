@@ -16,6 +16,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     ping code-new.pru.intranet.asia
-    telnet code-new.pru.intranet.asia 7999
+    telnet code-new.pru.intranet.asia 8443
     telnet code.pruconnect.net 7999
   displayName: 'Run a multi-line script'
