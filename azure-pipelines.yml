@@ -10,10 +10,12 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    ping code-new.pru.intranet.asia
+    ping code.pruconnect.net
+    telnet code-new.pru.intranet.asia 7999
+    telnet code.pruconnect.net 7999
   displayName: 'Run a multi-line script'
